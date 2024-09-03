@@ -264,7 +264,7 @@ body {
     height: 2px;
     margin-bottom: 20px;
     background: #dd6d2c;
-    background: linear-gradient(90deg, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%); */
 }
 
 .section-heading h2 {
@@ -1193,13 +1193,13 @@ Infos Style
 
 .infos .main-content .skill-slide .fill {
     height: 10px;
-    background-color: #5b03e4;
+    background-color: #dd6d2c;
     border-radius: 5px;
 }
 
 .infos .main-content .skill-slide h6 {
     position: absolute;
-    color: #5b03e4;
+    color: #dd6d2c;
     font-size: 15px;
     left: 0;
     top: -25px;
@@ -1207,7 +1207,7 @@ Infos Style
 
 .infos .main-content .skill-slide span {
     position: absolute;
-    color: #5b03e4;
+    color: #dd6d2c;
     font-size: 15px;
     font-weight: 700;
     top: -25px;
