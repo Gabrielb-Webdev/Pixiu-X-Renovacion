@@ -456,9 +456,10 @@ Header Style
     justify-content: flex-end;
 }
 
-.background-header .main-nav .logo {
-    /* margin-top: 10px; */
-}
+
+/* .background-header .main-nav .logo {
+    margin-top: 10px;
+} */
 
 .header-area .main-nav .nav {
     flex-basis: 80%;
@@ -1147,7 +1148,7 @@ Infos Style
 */
 
 .infos {
-    background-image: url(../images/infos-bg.jpg);
+    background-image: radial-gradient(circle, rgba(221, 109, 44, 0.7), rgba(254, 228, 217, 0.8)), url(../images/infos-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
