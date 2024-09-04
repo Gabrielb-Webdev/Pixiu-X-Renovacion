@@ -937,7 +937,7 @@ Banner Style
 }
 
 .main-banner::before {
-    content: url(../images/banner-left.png);
+    content: url(../images/banner-left_2.png);
     top: -1px;
     left: 0;
     position: absolute;
@@ -1023,7 +1023,7 @@ Services Style
 }
 
 .services::after {
-    content: url(../images/contact-left.jpg);
+    content: url(../images/contact-left.png);
     bottom: -150px;
     right: 0;
     -webkit-transform: scaleX(-1);
@@ -1258,7 +1258,7 @@ Contact Style
 }
 
 .contact-us::before {
-    content: url(../images/contact-left.jpg);
+    content: url(../images/contact-left.png);
     top: -60px;
     left: 0;
     position: absolute;
@@ -1268,7 +1268,7 @@ Contact Style
 }
 
 .contact-us::after {
-    content: url(../images/contact-left.jpg);
+    content: url(../images/contact-left.png);
     bottom: -90px;
     right: 0;
     -webkit-transform: scaleX(-1);
