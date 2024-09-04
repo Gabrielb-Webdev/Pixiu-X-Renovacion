@@ -410,7 +410,7 @@ Header Style
 .header-area {
     position: absolute;
     background: rgb(85, 0, 227);
-    background: linear-gradient(to bottom, #fee4d9, #dd6d2c);
+    background: #ffffff;
     height: 110px;
     top: 57px;
     left: 0;
@@ -500,7 +500,7 @@ Header Style
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
-    color: #fff;
+    color: #dd6d2c;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -529,13 +529,13 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #fff;
+    color: #fee4d9;
     opacity: 0.8;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #fff;
+    color: #dd6d2c;
     opacity: 0.8;
 }
 
@@ -727,7 +727,7 @@ Header Style
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #fff;
+    color: #dd6d2c;
 }
 
 @media (max-width: 1200px) {
@@ -883,11 +883,13 @@ Header Style
 
 .pre-header .left-info ul li a {
     font-size: 14px;
+    color: #dd6d2c;
 }
 
 .pre-header .left-info ul li a i {
     font-size: 18px;
     margin-right: 10px;
+    color: #dd6d2c;
 }
 
 .pre-header ul li a {
@@ -905,10 +907,11 @@ Header Style
 
 .pre-header .social-icons ul li a {
     font-size: 18px;
+    color: #dd6d2c;
 }
 
 .pre-header ul li a:hover {
-    color: #fee4d9;
+    opacity: 0.5;
 }
 
 
@@ -1148,7 +1151,7 @@ Infos Style
 */
 
 .infos {
-    background-image: radial-gradient(circle, rgba(221, 109, 44, 0.7), rgba(254, 228, 217, 0.8)), url(../images/infos-bg.jpg);
+    background-image: url(../images/infos-bg_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1163,7 +1166,7 @@ Infos Style
 }
 
 .infos .main-content .left-image {
-    background-image: url(../images/left-infos.jpg);
+    background-image: url(../images/left-infos_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
